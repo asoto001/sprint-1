@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+.Card1_Sec1 {
+  background-color: hsl(10, 79%, 65%);
+  width: 370px;
+  height: 70px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: hsl(27, 66%, 92%);
+}
+
+.Textos_Header h2 {
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.Textos_Header h4 {
+  font-size: 12px;
+}
+
+/* Comienza los estilos para la seccion 2 de la card  */
+
+.Card .Card1_Sec2 {
+  background-color: hsl(33, 100%, 98%);
+  width: 370px;
+  height: 350px;
+  margin-top: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 16px;
+}
+
+.Sec2_bars {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 10px 10px;
+  border-bottom: 1.5px solid hsl(28, 25%, 85%);
+}
+.FlexBarras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.texto_top_barra {
+  background-color: hsl(25, 47%, 15%);
+  color: hsl(27, 66%, 92%);
+  font-size: 10px;
+  padding: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.texto_bottom_barra {
+  margin-top: 3px;
+  font-size: 10px;
+  color: hsl(28, 10%, 53%);
+}
+
+.ancho_radio_Barra {
+  width: 34px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.alturaBarra1 {
+  height: 32px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.alturaBarra2 {
+  height: 68px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.alturaBarra3 {
+  height: 100px;
+  background-color: hsl(186, 34%, 60%);
+}
+
+.alturaBarra4 {
+  height: 60px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.alturaBarra5 {
+  height: 44px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.alturaBarra6 {
+  height: 85px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.alturaBarra7 {
+  height: 50px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.estiloHover :hover{
+  background-color: hsl(10, 100%, 80%);
+  color: black;
+}
+
+.estiloHover h4{
+  display: none;
+}
+
+.estiloHover:hover h4{
+  display: block;
+}
+
+.estiloHoverUno :hover{
+  background-color: hsl(186, 57%, 71%);
+  color: black;
+}
+.estiloHoverUno h4{
+  visibility: hidden;
+}
+
+.estiloHoverUno:hover h4{
+  visibility: visible;
+}
+
+/* .texto_top_barra :hover{
+  opacity: 1;
+  visibility: visible;
+} */
+/* Comienza los estilos para la seccion 3 de la card  */
+
+.Sec3_texto {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.texto1Sec3 {
+  color: hsl(28, 10%, 53%);
+  font-size: 13px;
+}
+.texto2Sec3 {
+  font-size: 27px;
+  color: hsl(25, 47%, 15%);
+  margin-top: 3px;
+}
+
+.Textos_sec3_ultimos {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.Textos_sec3_ultimos h5 {
+  font-size: 10px;
+  color: hsl(25, 47%, 15%);
+}
+
+.Textos_sec3_ultimos h4 {
+  font-size: 10px;
+  color: hsl(28, 10%, 53%);
+}
